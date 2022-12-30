@@ -7,6 +7,6 @@ router.get('/', StudentController.getAllStudent);
 router.get('/:id', StudentController.getSingleSingleById);
 router.post('/', StudentController.createStudent);
 router.put('/:id', StudentController.updateStudentById);
-router.post('/:id', StudentController.deleteStudentById);
+router.delete('/:id', StudentController.deleteStudentById);
 
 export default router;
